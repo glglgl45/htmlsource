@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+        <div>
+            <fieldset>
+                <legend>필수 사항</legend>
+                <p>
+                    <div>
+                    <label for="name">이름</label>
+                    <input type="text" name="name" id="name" />
+                    </div>
+                </p>
+                <p>
+                    <div>
+                    <label for="mail">이메일</label>
+                    <input type="text" name="mail" id="mail" />
+                    </div>
+                </p>
+                <p>
+                    <div>
+                    <label for="password">비밀번호</label>
+                    <input type="password" name="password" id="password" />
+                    </div>
+                </p>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>부가 입력 사항</legend>
+                <div>
+                    <p>
+                        <label for="birth">생년월일</label>
+                        <input type="date" name="birth" id="birth">
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <label for="addr">거주지를 선택해 주세요<br></label>
+                        <select name="addr" id="addr">
+                            <option value="seoul">서울시</option>
+                        </select>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <label for="hab">취미</label>
+                        독서<input type="checkbox" name="read" id="read">
+                        여행<input type="checkbox" name="travle" id="travle">
+                        영화감상<input type="checkbox" name="cinema" id="cinema">
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <label for="gender">성별</label>
+                        남자<input type="radio" name="gender" id="gender_m">
+                        여자<input type="radio" name="gender" id="gender_f">
+                    </p>
+                </div>
+                <div>
+                    <label for="file">사진을 등록해 주세요.</label>
+                    <input type="file" name="file" id="file">
+                </div>
+                <div>
+                    <p>
+                        <label for="textarea">방문 경로를 말씀해 주세요<br></label>
+                        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                    </p>
+                </div>
+                <div></div>
+                <div></div>
+            </fieldset>
+        </div>
+        <div>
+            <p>
+                <input type="button" value="회원가입">
+                <button type="reset">재작성</button>
+                <button type="submit">제출</button>
+            </p>
+        </div>
+    </form>
+  </body>
+</html>
